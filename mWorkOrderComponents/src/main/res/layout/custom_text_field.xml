@@ -1,0 +1,82 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/inputContainer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/input_container_padding">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/editTextContainer"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_text_field_background_selector"
+            android:hint="@string/input_hint"
+            android:letterSpacing="0.01"
+            android:maxLength="666"
+            android:paddingTop="@dimen/edit_text_padding_vertical"
+            android:paddingBottom="@dimen/edit_text_padding_vertical"
+            android:textColor="@color/edit_text_text_color"
+            android:textColorHint="@color/edit_text_hint_color"
+            android:textSize="@dimen/edit_text_size"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/leadingIcon"
+            android:layout_width="@dimen/leading_icon_size"
+            android:layout_height="@dimen/leading_icon_size"
+            android:layout_marginStart="@dimen/leading_icon_margin_start"
+            android:src="@drawable/custom_text_field_ic_leading_icon"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="@id/editText"
+            app:layout_constraintStart_toStartOf="@id/editText"
+            app:layout_constraintTop_toTopOf="@id/editText" />
+
+        <ImageView
+            android:id="@+id/trailingIcon"
+            android:layout_width="@dimen/trailing_icon_size"
+            android:layout_height="@dimen/trailing_icon_size"
+            android:layout_marginEnd="@dimen/trailing_icon_margin_end"
+            android:src="@drawable/custom_text_field_ic_trailing_icon"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="@id/editText"
+            app:layout_constraintEnd_toEndOf="@id/editText"
+            app:layout_constraintTop_toTopOf="@id/editText" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/supportingText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/supporting_text_margin_start"
+        android:layout_marginTop="@dimen/supporting_text_margin_top"
+        android:letterSpacing="0.03"
+        android:text="@string/supporting_text"
+        android:textColor="@color/supporting_text_color"
+        android:textSize="@dimen/supporting_text_size"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editTextContainer" />
+
+    <TextView
+        android:id="@+id/charCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/char_count_margin_end"
+        android:layout_marginTop="@dimen/char_count_margin_top"
+        android:letterSpacing="0.03"
+        android:text="@string/char_count"
+        android:textColor="@color/char_count_color"
+        android:textSize="@dimen/char_count_size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editTextContainer" />
+</androidx.constraintlayout.widget.ConstraintLayout>

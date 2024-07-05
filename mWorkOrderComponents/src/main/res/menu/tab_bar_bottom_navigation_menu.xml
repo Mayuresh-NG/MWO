@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/more"
+        android:enabled="true"
+        android:icon="@drawable/tab_bar_more"
+        android:title="More"/>
+    <item
+        android:id="@+id/alert"
+        android:enabled="true"
+        android:icon="@drawable/tab_bar_alert"
+        android:title="Alerts"
+        />
+    <item
+        android:id="@+id/issues"
+        android:enabled="true"
+        android:icon="@drawable/tab_bar_issues"
+        android:title="Issues"/>
+    <item
+        android:id="@+id/work_order"
+        android:enabled="true"
+        android:icon="@drawable/tab_bar_work_order"
+        android:title="Work Orders"/>
+    <item
+        android:id="@+id/home"
+        android:enabled="true"
+        android:icon="@drawable/tab_bar_dashboard"
+        android:title="Home"/>
+</menu>

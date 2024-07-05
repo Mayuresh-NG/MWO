@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Custom Text Field -->
+    <string name="input_hint">Input</string>
+    <string name="supporting_text">Supporting text</string>
+    <string name="char_count">0/666</string>
+
+    <!--Custom Dialog -->
+    <string name="dialog_title">Dialog header</string>
+    <string name="dialog_body">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna aliqua.</string>
+    <string name="button_left_text">Button</string>
+    <string name="button_right_text">Button</string>
+</resources>

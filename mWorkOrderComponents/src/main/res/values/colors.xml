@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Custom Text Field-->
+    <color name="edit_text_text_color">#0E0F10</color>
+    <color name="edit_text_hint_color">#61656D</color>
+    <color name="supporting_text_color">#46484E</color>
+    <color name="char_count_color">#46484E</color>
+
+    <!--Custom Dialog-->
+    <color name="button_text_color_left">#5C48DA</color>
+    <color name="button_text_color_right">#5C48DA</color>
+
+    <!--Icon Button-->
+    <color name="primary">#EBE9FB</color>
+    <color name="warning">#FAE0E3</color>
+    <color name="defaultColor">#EDEEF0</color>
+
+    <!--Tab Bar-->
+    <color name="colorSelected">#5C48DA</color>
+    <color name="colorUnselected">#61656D</color>
+</resources>

@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/edit"
+        android:title="play_button"
+        android:icon="@drawable/top_app_bar_play_button_default"
+        app:showAsAction="ifRoom" />
+</menu>

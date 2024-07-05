@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Custom Text Field -->
+    <dimen name="leading_icon_width">25dp</dimen>
+    <dimen name="trailing_icon_width">25dp</dimen>
+    <dimen name="dropdown_item_padding">8dp</dimen>
+    <dimen name="leading_icon_padding">48dp</dimen>
+    <dimen name="edit_text_padding_start">25dp</dimen>
+    <dimen name="trailing_icon_padding">48dp</dimen>
+    <dimen name="supporting_text_padding_end">20dp</dimen>
+    <dimen name="char_count_padding_start">20dp</dimen>
+
+    <dimen name="input_container_padding">16dp</dimen>
+    <dimen name="edit_text_padding_vertical">12dp</dimen>
+    <dimen name="leading_icon_size">24dp</dimen>
+    <dimen name="trailing_icon_size">24dp</dimen>
+    <dimen name="leading_icon_margin_start">12dp</dimen>
+    <dimen name="trailing_icon_margin_end">12dp</dimen>
+    <dimen name="supporting_text_margin_start">16dp</dimen>
+    <dimen name="supporting_text_margin_top">4dp</dimen>
+    <dimen name="char_count_margin_end">16dp</dimen>
+    <dimen name="char_count_margin_top">4dp</dimen>
+
+    <dimen name="edit_text_size">16sp</dimen>
+    <dimen name="supporting_text_size">12sp</dimen>
+    <dimen name="char_count_size">12sp</dimen>
+
+    <!--Custom Dialog-->
+    <dimen name="dialog_width">280dp</dimen>
+
+    <dimen name="dialog_elevation">15dp</dimen>
+
+    <dimen name="content_padding">24dp</dimen>
+    <dimen name="button_container_padding">8dp</dimen>
+    <dimen name="button_padding">2dp</dimen>
+
+    <dimen name="icon_size">24dp</dimen>
+
+    <dimen name="dialog_title_margin_top">12dp</dimen>
+    <dimen name="dialog_body_margin_top">12dp</dimen>
+    <dimen name="left_button_margin_end">8dp</dimen>
+
+    <dimen name="dialog_title_line_spacing">5sp</dimen>
+    <dimen name="dialog_body_line_spacing">4sp</dimen>
+
+    <dimen name="button_container_height">52dp</dimen>
+
+    <dimen name="dialog_body_translation_y">-1.8sp</dimen>
+
+    <!--Icon Button-->
+    <dimen name="max_button_size">200dp</dimen>
+
+</resources>

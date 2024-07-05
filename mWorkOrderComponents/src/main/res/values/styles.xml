@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="DialogTitle">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textFontWeight">500</item>
+        <item name="android:letterSpacing">0.01</item>
+        <item name="android:textColor">#0E0F10</item>
+    </style>
+
+    <style name="DialogBody">
+        <item name="android:textSize">14sp</item>
+        <item name="android:letterSpacing">0.02</item>
+        <item name="android:textFontWeight">400</item>
+        <item name="android:textColor">#46484E</item>
+    </style>
+
+    <style name="ButtonText">
+        <item name="android:textFontWeight">500</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:letterSpacing">0.01</item>
+        <item name="android:textColor">#5C48DA</item>
+    </style>
+
+    <!--    Document header-->
+    <style name="add_line">
+        <item name="android:textSize">24sp</item>
+        <item name="android:letterSpacing">0.01</item>
+        <item name="android:textColor">#61656D</item>
+    </style>
+
+    <style name="label">
+        <item name="android:textSize">14sp</item>
+        <item name="android:letterSpacing">0.01</item>
+        <item name="android:textColor">#0E0F10</item>
+    </style>
+
+    <style name="sublabel">
+        <item name="android:textSize">12sp</item>
+        <item name="android:letterSpacing">0.03</item>
+        <item name="android:textColor">#46484E</item>
+    </style>
+
+    <!--Tab Bar-->
+    <style name="BottomNavigationTextAppearance" parent="TextAppearance.AppCompat.Caption">
+        <item name="android:textSize">11sp</item>
+        <item name="android:letterSpacing">0.05</item>
+        <item name="android:textColor">#5C48DA</item>
+    </style>
+
+    <!-- Custom style for BottomNavigationView -->
+    <style name="BottomNavigationViewStyle" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name="itemIconTint">@color/tab_bar_bottom_nav_colors</item>
+        <item name="itemTextColor">@color/tab_bar_bottom_nav_colors</item>
+        <item name="itemTextAppearanceActive">@style/BottomNavigationTextAppearance</item>
+        <item name="itemTextAppearanceInactive">@style/BottomNavigationTextAppearance</item>
+    </style>
+</resources>
